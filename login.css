@@ -19,13 +19,13 @@ body{
     margin: 0;
     background-image: url(images/login\ option-1.jpg);
 }
-.icon-size{
+/* .icon-size{
     color: white;
     border-radius: 50%;
     font-size: 2rem;
     padding-right: 10px;
     /* border: 1px solid white; */
-}
+} */
 section{
     width: 100%;
 }
@@ -35,7 +35,19 @@ section{
     text-align: center;
 }
 .div-dif{
-    margin-bottom: 20px;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    width: 50%;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+   color: white;
+    padding: 0 15px;
+}
+.paul{
+    opacity: 0;
 }
 .btn-1{
     width: 36%;
@@ -65,12 +77,13 @@ section{
 .btn-1:hover{
     background-color: #efa30b;
     transition: 0.5s;
+    cursor: pointer;
 }
 .btn-2:hover{
-    pointer-events: stroke;
+    cursor: pointer;
 }
 .input-text{
-    width: 50%;
+    /* width: 50%; */
     /* text-align: center; */
     padding: 1.1rem;
     margin: 0 3rem 0 0;
@@ -78,15 +91,18 @@ section{
     font-family: roboto mono;
     background-color: inherit;
     font-size: 1rem;
+    font-size: 1rem;
     font-weight: bold;
-    /* border-radius: 3rem; */
-    border: 0.3rem solid white;
+    /* border-radius: 6px; */
+    border: none;
+    outline: none;
 }
 .testing{
     display: inline;
     color: white;
     font-family: roboto mono;
     margin: 0 0 2rem 0;
+
 }
 u{
     padding-left: 20px;
@@ -95,4 +111,47 @@ u{
 .distance{
     padding: 1rem 0 1rem 0;
     /* margin: 0 0 0 2rem; */
+}
+@media(max-width: 800px) {
+    .icon-sizing{
+        font-size: 3rem;
+    }
+    .icon-size{
+        font-size: 1.5rem;
+    }
+    .icon-sizing:hover{
+        background-color: blue;
+        transition: 1s ;
+    }
+    .membership{
+        font-family: roboto Mono;
+        color: white;
+        font-size: 1rem;
+        margin-bottom: 40px;
+    }
+    .container{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .input-text{
+        border-radius: 5px;
+        padding: .8rem;
+        font-size: .7rem;
+    }
+    .testing{
+        font-size: .9rem;
+    }
+    .btn-1{
+        width: 26%;
+        font-size: 1rem;
+        padding: .8rem;
+    }
+    .btn-2{
+        padding: .1rem;
+        font-size: 1.1rem;
+    }
+    .number{
+        margin-bottom: 20px;
+    }
 }
