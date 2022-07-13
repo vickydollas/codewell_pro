@@ -24,8 +24,8 @@ body{
     border-radius: 50%;
     font-size: 2rem;
     padding-right: 10px;
-    /* border: 1px solid white; */
-} */
+    /* border: 1px solid white;
+}*/
 section{
     width: 100%;
 }
@@ -83,7 +83,7 @@ section{
     cursor: pointer;
 }
 .input-text{
-    /* width: 50%; */
+    width: 50%;
     /* text-align: center; */
     padding: 1.1rem;
     margin: 0 3rem 0 0;

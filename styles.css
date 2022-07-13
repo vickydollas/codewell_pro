@@ -235,6 +235,15 @@ footer p{
         margin: 40px 0 0 20%;
     }
 }
+@media(max-width: 1400px) {
+    .section-1-img-size7, .section-1-img-size8{
+        width: 100%;
+    }
+    .section-3-sizing-1{
+        width: 100%;
+        margin: 50px 0;
+    }
+}
 @media(max-width: 800px) {
     .section-1-display-1{
         display: grid;
