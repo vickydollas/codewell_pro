@@ -44,6 +44,7 @@ a:visited{
     height: 6vh;
     background-color: #FBE850;
     border-radius: 5px;
+    /* margin-left: 10rem; */
 }
 .section-1-btn:hover{
     background-color: aliceblue;
@@ -259,9 +260,9 @@ footer p{
         position: absolute;
         right: 50px;
     }
-    .nav-div-2,.nav-div-3{
-        /* display: none; */
-    }
+    /* .nav-div-2,.nav-div-3{
+        display: none;
+    } */
     .section-1-display-0{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -321,5 +322,11 @@ footer p{
     .section-2-header{
         margin-top: 0px;
     }
+    .nav-div-3{
+        display: none;
+    }
     
+}
+@media(max-width: 500px) {
+
 }
